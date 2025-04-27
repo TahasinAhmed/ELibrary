@@ -120,6 +120,12 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="constant.Master.cs">
+      <DependentUpon>constant.Master</DependentUpon>
+    </Compile>
+    <Compile Include="constant.Master.designer.cs">
+      <DependentUpon>constant.Master</DependentUpon>
+    </Compile>
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -2307,6 +2313,7 @@
     <Content Include="fontawesome\webfonts\fa-solid-900.woff2" />
     <Content Include="fontawesome\webfonts\fa-v4compatibility.ttf" />
     <Content Include="fontawesome\webfonts\fa-v4compatibility.woff2" />
+    <Content Include="constant.Master" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
